@@ -17,7 +17,7 @@ public class Conexion {
         
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            conn=DriverManager.getConnection(JDBC_URL,"USERANDEN","kun kun side 54 lol");
+            conn=DriverManager.getConnection(JDBC_URL,"","");
         
             System.out.println("Conexion ="+operacion);
             operacion++;
